@@ -1,0 +1,6 @@
+@JobCrawler_HostAddress = http://localhost:5137
+
+GET {{JobCrawler_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
