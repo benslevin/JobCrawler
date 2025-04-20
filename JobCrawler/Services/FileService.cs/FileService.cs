@@ -1,4 +1,5 @@
 using JobCrawler.Models;
+using Serilog;
 using System.Text.Json;
 
 namespace JobCrawler.Services{
