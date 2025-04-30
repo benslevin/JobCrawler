@@ -13,7 +13,7 @@ namespace JobCrawler.Services{
 
         public List<InputWebsite> ReadInputFile()
         {
-            var filePath = Path.Combine(_env.WebRootPath, "website.json");
+            var filePath = Path.Combine(_env.ContentRootPath, "AppData\\websites.json");
             if(!File.Exists(filePath))
             {
                 throw new FileNotFoundException("Website list file not found.");
