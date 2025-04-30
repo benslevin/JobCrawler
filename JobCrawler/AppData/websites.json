@@ -1,10 +1,10 @@
 [
     {
-        "name" : "upwind",
-        "url" : "https://www.upwind.io/"
+        "Name" : "upwind",
+        "Url" : "https://www.upwind.io/"
     }, 
     {
-        "name" : "jfrog",
-        "url" : "https://jfrog.com/"
+        "Name" : "jfrog",
+        "Url" : "https://jfrog.com/"
     }
 ]
