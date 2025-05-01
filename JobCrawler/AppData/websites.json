@@ -1,10 +1,10 @@
 [
-    {
-        "Name" : "upwind",
-        "Url" : "https://www.upwind.io/"
-    }, 
-    {
-        "Name" : "jfrog",
-        "Url" : "https://jfrog.com/"
-    }
+  {
+    "Name": "upwind",
+    "Url": "https://www.upwind.io/careers"
+  },
+  {
+    "Name": "jfrog",
+    "Url": "https://join.jfrog.com/positions"
+  }
 ]

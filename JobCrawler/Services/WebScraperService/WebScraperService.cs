@@ -21,7 +21,6 @@ namespace JobCrawler.Services{
                 response.EnsureSuccessStatusCode();
                 _logger.LogInfo($"Successfully fetched HTML from {url}");
                 return await response.Content.ReadAsStringAsync();
-
             }
             catch (Exception ex)
             {
