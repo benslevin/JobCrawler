@@ -31,7 +31,8 @@ namespace JobCrawler.Services.StartupJobService
                 {
                     var html = await _scraper.FetchHtml(site.Url);
                     _logger.LogInfo($"Scraped {site.Name}");
-                    _jobRepository.AddJobs(_jobParser.ParseJobs(html));
+                    var parsedJobs = await _jobParser.ParseJobs(html, site.Url);
+                    _jobRepository.AddJobs(parsedJobs);
                 }
             }
             catch (Exception ex)
